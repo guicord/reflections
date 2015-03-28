@@ -1,0 +1,18 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git just creates the .git directory so that it will be able to add files and commit changes to it
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area allows to pick which files will be committed.  
+It is different than other version control systems such as svn, which will let you list the files to commit during the commit. 
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches can be helpful to separate temporary/experimental changes from the main branch "master"
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help vizualize the branches and the dependency between the commits. As well as the "unreachable" ones. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+One branch is actually merged into another one. The target one receives all the commits from the other branch. Hence, the new commit has both other branches as ancestors. From then on, this is the new tip of the target branch. 
+
