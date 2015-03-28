@@ -44,4 +44,5 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I do not have it setup yet
+    I'll use Git for tracking files in other Udacity lessons, and probably any tutorial or personal project I'm undertaking
+    
